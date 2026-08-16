@@ -1,0 +1,107 @@
+DESIGN & BUILD & DEPLOY
+HIGHLY AVAILABLE & SCALABLE & SECURE
+PAYMENT APPLICATION ON AZURE
+
+Azure
+│
+├── DNS & Edge
+│   ├── Azure DNS
+│   ├── Azure Front Door
+│   └── Azure WAF
+│
+├── Application Traffic
+│   └── Application Gateway
+│
+├── AKS
+│   │
+│   ├── Kong API Gateway
+│   │
+│   ├── Application Layer
+│   │   │
+│   │   ├── Frontend Services
+│   │   │   ├── Next.js
+│   │   │   │   └── Frontend Application
+│   │   │   │
+│   │   │   └── React Flow
+│   │   │       └── Architecture Designer
+│   │   │
+│   │   ├── Backend Microservices
+│   │   │   ├── NestJS
+│   │   │   │   └── 10 Microservices
+│   │   │   │
+│   │   │   └── .NET 6
+│   │   │       └── 40 Microservices
+│   │   │
+│   │   ├── Payment Services
+│   │   │   └── 10 Microservices
+│   │   │      
+│   │   ├── Supporting Applications
+│   │   │   ├── JSReport
+│   │   │   ├── n8n
+│   │   │   └── Docusaurus
+│   │   │
+│   │   └── Authentication
+│   │       └── FusionAuth
+│   │
+│   ├── Istio Ambient Mesh
+│   ├── HPA
+│   ├── KEDA
+│   └── AKS Node Auto Provisioning
+│
+├── Data
+│   ├── Azure Database for PostgreSQL
+│   ├── Azure Cache for Redis
+│   ├── MongoDB Atlas
+│   │   └── Azure Private Link
+│   │
+│   └── Azure Blob Storage
+│       ├── Documents
+│       ├── Reports
+│       ├── Payment Files
+│       ├── Backups
+│       └── Static Assets
+│
+├── Messaging & Streaming
+│   ├── Kafka
+│   │   ├── KRaft
+│   │   ├── Strimzi
+│   │   ├── Zone-Aware Placement
+│   │   └── MirrorMaker 2
+│   │
+│   └── Azure Service Bus
+│
+├── Identity & Security
+│   ├── Microsoft Entra ID
+│   ├── AKS Workload Identity
+│   ├── Azure RBAC
+│   ├── Azure Key Vault
+│   ├── Microsoft Defender for Cloud
+│   ├── Azure Policy
+│   ├── Kyverno
+│   ├── Falco
+│   └── Network Policies
+│
+├── Observability
+│   ├── Prometheus
+│   ├── Loki
+│   ├── Tempo
+│   ├── Grafana
+│   ├── Alertmanager
+│   ├── OpenTelemetry
+│   ├── Grafana Alloy
+│   ├── Grafana Beyla
+│   ├── Kiali
+│   └── Azure Monitor
+│
+├── CI/CD & GitOps
+│   ├── GitHub Actions
+│   ├── Azure Container Registry
+│   ├── Argo CD
+│   └── Terraform
+│
+└── Backup & Disaster Recovery
+    ├── Azure Backup
+    ├── Blob Storage Backup
+    ├── Cross-Region Backup
+    ├── DR Region
+    └── Restore Testing

@@ -1,0 +1,19 @@
+ON-PREM                         AWS                         AZURE
+─────────────────────────────────────────────────────────────────────────
+Kubernetes              →      EKS                 →      AKS
+MetalLB/KubeVIP         →      ALB                 →      App Gateway
+KGateway                 →      Kong               →      Kong
+Istio                    →      Istio               →      Istio
+Vault                    →      Secrets Manager     →      Key Vault
+Harbor                   →      ECR                 →      ACR
+OpenEBS                  →      EBS                 →      Managed Disks
+SeaweedFS                →      S3                  →      Blob Storage
+CloudNativePG            →      RDS PostgreSQL      →      Azure PostgreSQL
+Redis Sentinel           →      ElastiCache         →      Azure Cache
+Kafka                    →      MSK                 →       Kafka
+ActiveMQ                 →      Amazon MQ            →      Service Bus
+Prometheus/Grafana       →      Same/Managed         →      Same/Managed
+Loki/Alloy               →      Same                →      Same
+Vault DR/Velero          →      AWS Backup           →      Azure Backup
+Jenkins                  →      GitHub Actions       →      GitHub Actions
+Terraform                →      Terraform            →      Terraform

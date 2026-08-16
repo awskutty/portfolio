@@ -1,0 +1,101 @@
+DESIGN & BUILD & DEPLOY
+HIGHLY AVAILABLE & SCALABLE & SECURE
+PAYMENT APPLICATION ON-PREM KUBERNETES
+│
+├── INFRASTRUCTURE
+│   │
+│   ├── Container Platform
+│   │   └── Kubernetes
+│   │
+│   ├── Networking & Traffic
+│   │   ├── KGateway
+│   │   ├── Istio Ambient Mesh
+│   │   └── MetalLB / KubeVIP
+│   │
+│   ├── Autoscaling
+│   │   ├── KEDA
+│   │   └── HPA
+│   │
+│   ├── APPLICATION LAYER
+│   │   │
+│   │   ├── Frontend Services
+│   │   │   ├── Next.js
+│   │   │   │   └── Frontend Application
+│   │   │   │
+│   │   │   └── React Flow
+│   │   │       └── Architecture Designer
+│   │   │
+│   │   ├── Backend Microservices
+│   │   │   ├── NestJS
+│   │   │   │   └── 10 Microservices
+│   │   │   │
+│   │   │   └── .NET 6
+│   │   │       └── 40 Microservices
+│   │   │
+│   │   ├── Payment Services
+│   │   │   └── 10 Microservices
+│   │   │  
+│   │   ├── Supporting Applications
+│   │   │   ├── JSReport
+│   │   │   ├── n8n
+│   │   │   └── Docusaurus
+│   │   │
+│   │   └── Authentication
+│   │       └── FusionAuth
+│   │
+│   ├── CI/CD & GitOps
+│   │   ├── Jenkins
+│   │   └── Argo CD
+│   │
+│   ├── Container Registry & Supply Chain
+│   │   └── Harbor
+│   │
+│   ├── Security & Secrets
+│   │   ├── HashiCorp Vault
+│   │   └── VSO (Vault Secrets Operator)
+│   │
+│   ├── Storage & Backup
+│   │   ├── OpenEBS
+│   │   ├── SeaweedFS
+│   │   └── Velero
+│   │
+│   ├── Databases & Cache
+│   │   ├── Redis + Redis Sentinel
+│   │   ├── CloudNativePG
+│   │   ├── PostgreSQL Pooler
+│   │   └── MongoDB Cluster
+│   │
+│   └── Messaging & Streaming
+│       ├── Apache Kafka
+│       └── ActiveMQ
+│
+└── MONITORING & OBSERVABILITY
+    │
+    ├── Metrics
+    │   ├── Prometheus
+    │   ├── Prometheus Operator
+    │   ├── Node Exporter
+    │   └── Kube State Metrics
+    │
+    ├── Visualization
+    │   └── Grafana
+    │
+    ├── Alerting
+    │   └── Alertmanager
+    │
+    ├── Logging
+    │   ├── Loki
+    │   ├── Promtail
+    │   └── Grafana Alloy
+    │
+    ├── Distributed Tracing
+    │   ├── OpenTelemetry
+    │   ├── Grafana Alloy
+    │   ├── Grafana Tempo
+    │   └── Jaeger
+    │
+    ├── eBPF Observability
+    │   └── Grafana Beyla
+    │
+    └── Service Mesh Observability
+        └── Kiali

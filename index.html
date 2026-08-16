@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="T. Kutti Durai - Senior DevOps, Cloud Platform & DevSecOps Engineer. Specializing in AWS, Azure, Kubernetes, ArgoCD, Istio, Fastlane Mobile DevOps, and secure payment pipelines.">
+    <meta name="author" content="T. Kutti Durai">
+    <meta name="keywords" content="DevOps, Cloud Engineer, DevSecOps, AWS, Azure, Kubernetes, EKS, AKS, Terraform, Terragrunt, ArgoCD, Istio, Kong, Fastlane, Mobile DevOps, Fintech, Payment Systems">
+    
+    <title>T. Kutti Durai | AWS DevOps & Cloud Platform Engineer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Glow Effects Background -->
+    <div class="blob blob-purple"></div>
+    <div class="blob blob-blue"></div>
+    <div class="blob blob-cyan"></div>
+
+    <!-- Header & Navigation -->
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="code-bracket">&lt;</span>
+                <span class="logo-name">Kutti Durai</span>
+                <span class="logo-dot">.</span>
+                <span class="logo-title">devops</span>
+                <span class="code-bracket">/&gt;</span>
+            </a>
+            
+            <nav class="main-nav">
+                <a href="#about" class="nav-link active">About</a>
+                <a href="#visualizer" class="nav-link">Cloud Architectures</a>
+                <a href="#case-studies" class="nav-link">Case Studies</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#mobile-sec" class="nav-link">Mobile & Sec</a>
+                <a href="#contact" class="nav-link nav-btn">Contact</a>
+            </nav>
+            
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-btn" title="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button id="mobile-menu-toggle" class="menu-btn" title="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-nav-overlay" id="mobile-nav">
+        <button class="close-mobile-menu" id="close-mobile-menu"><i class="fa-solid fa-xmark"></i></button>
+        <nav class="mobile-nav-links">
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#visualizer" class="mobile-link">Cloud Architectures</a>
+            <a href="#case-studies" class="mobile-link">Case Studies</a>
+            <a href="#experience" class="mobile-link">Experience</a>
+            <a href="#skills" class="mobile-link">Skills</a>
+            <a href="#mobile-sec" class="mobile-link">Mobile & Sec</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero & Terminal Section -->
+        <section id="about" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-status">
+                        <span class="pulse-indicator"></span> Ready for Global Relocation
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">T. Kutti Durai</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        I build <span id="typewriter" class="typewriter-text"></span><span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-desc">
+                        Senior DevOps & Cloud Platform Engineer with <strong>7+ years</strong> of expertise in designing, building, and deploying highly available, secure, and autoscaling infrastructures. I specialize in automating enterprise fintech/payment systems, container orchestration, GitOps, DevSecOps pipelines, and mobile app release automation (Android/iOS) for banking and financial sectors worldwide.
+                    </p>
+                    
+                    <div class="hero-ctas">
+                        <a href="#visualizer" class="btn btn-primary"><i class="fa-solid fa-diagram-project"></i> Explore Architectures</a>
+                        <a href="assets/pdf/resume.pdf" class="btn btn-secondary" target="_blank" download="T_Kutti_Durai_DevOps_Resume.pdf"><i class="fa-solid fa-file-arrow-down"></i> Download Resume</a>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/kutti-durai-t-455304356" target="_blank" class="social-icon" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="mailto:kduraitech@gmail.com" class="social-icon" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="tel:+916379691338" class="social-icon" title="Phone"><i class="fa-solid fa-phone"></i></a>
+                        <a href="https://github.com/awskutty" target="_blank" class="social-icon" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <!-- DevOps Terminal Mockup -->
+                <div class="hero-visual">
+                    <div class="terminal-card">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="terminal-title">kuttidurai@devops-node-01:~</div>
+                            <div class="terminal-actions"><i class="fa-regular fa-copy"></i></div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line"><span class="t-prompt">$</span> curl -s https://api.kuttidurai.dev/profile | jq .</div>
+                            <div class="terminal-output">{</div>
+                            <div class="terminal-output">&nbsp;&nbsp;<span class="t-key">"name"</span>: <span class="t-val">"T. Kutti Durai"</span>,</div>
+                            <div class="terminal-output">&nbsp;&nbsp;<span class="t-key">"role"</span>: <span class="t-val">"AWS & Azure DevOps Engineer"</span>,</div>
+                            <div class="terminal-output">&nbsp;&nbsp;<span class="t-key">"experience"</span>: <span class="t-val">"7+ Years"</span>,</div>
+                            <div class="terminal-output">&nbsp;&nbsp;<span class="t-key">"core_skills"</span>: [</div>
+                            <div class="terminal-output">&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-val">"Kubernetes (EKS/AKS)"</span>, <span class="t-val">"Terraform/Terragrunt"</span>,</div>
+                            <div class="terminal-output">&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-val">"GitOps (ArgoCD)"</span>, <span class="t-val">"Service Mesh (Istio)"</span>,</div>
+                            <div class="terminal-output">&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-val">"Mobile DevOps (Fastlane/Gradle/Xcode)"</span>,</div>
+                            <div class="terminal-output">&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-val">"DevSecOps (Trivy/Semgrep/DefectDojo)"</span></div>
+                            <div class="terminal-output">&nbsp;&nbsp;],</div>
+                            <div class="terminal-output">&nbsp;&nbsp;<span class="t-key">"availability"</span>: <span class="t-val">"Relocation / Remote"</span></div>
+                            <div class="terminal-output">}</div>
+                            <div class="terminal-line"><span class="t-prompt">$</span> kubectl get pods -n kube-system</div>
+                            <div class="terminal-output-cmd">
+                                <table>
+                                    <tr><th>NAME</th><th>READY</th><th>STATUS</th><th>RESTARTS</th><th>AGE</th></tr>
+                                    <tr><td>aws-node-7b89d</td><td>1/1</td><td><span class="status-running">Running</span></td><td>0</td><td>184d</td></tr>
+                                    <tr><td>coredns-58cc6fd</td><td>2/2</td><td><span class="status-running">Running</span></td><td>0</td><td>184d</td></tr>
+                                    <tr><td>karpenter-7dfbc9</td><td>1/1</td><td><span class="status-running">Running</span></td><td>0</td><td>92d</td></tr>
+                                    <tr><td>istiod-ambient-6c</td><td>1/1</td><td><span class="status-running">Running</span></td><td>0</td><td>45d</td></tr>
+                                </table>
+                            </div>
+                            <div class="terminal-line"><span class="t-prompt">$</span> terraform plan -out=tfplan</div>
+                            <div class="terminal-output-tf">Plan: 12 to add, 0 to change, 0 to destroy.</div>
+                            <div class="terminal-line"><span class="t-prompt">$</span> <span class="blink">_</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats section -->
+        <section class="stats-section">
+            <div class="container stats-container">
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                    <div class="stat-num">7+</div>
+                    <div class="stat-text">Years Infrastructure Experience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <div class="stat-num">40%</div>
+                    <div class="stat-text">Deployment Errors Reduced</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                    <div class="stat-num">30-40%</div>
+                    <div class="stat-text">Cloud Cost Savings (Karpenter/Rightsizing)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-cubes"></i></div>
+                    <div class="stat-num">50+</div>
+                    <div class="stat-text">Microservices Managed</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cloud Architecture Visualizer (Central Interactive Piece) -->
+        <section id="visualizer" class="visualizer-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Multi-Cloud & On-Prem Architectures</h2>
+                    <p class="section-subtitle">Toggle through the architectures I have designed and deployed for enterprise payments and high-scale microservices, mapping tools from On-Premises to AWS and Azure.</p>
+                </div>
+                
+                <!-- Selector Tabs -->
+                <div class="arch-selector">
+                    <button class="arch-tab active" data-target="aws">
+                        <i class="fa-brands fa-aws tab-icon"></i> AWS Architecture
+                    </button>
+                    <button class="arch-tab" data-target="azure">
+                        <i class="fa-brands fa-microsoft tab-icon"></i> Azure Architecture
+                    </button>
+                    <button class="arch-tab" data-target="on-prem">
+                        <i class="fa-solid fa-server tab-icon"></i> On-Prem Kubernetes
+                    </button>
+                </div>
+                
+                <!-- Visualizer Workspace -->
+                <div class="visualizer-workspace">
+                    <!-- The Diagram -->
+                    <div class="diagram-container">
+                        <div class="diagram-grid">
+                            
+                            <!-- Layer 1: Edge & Traffic -->
+                            <div class="diagram-layer" data-layer="edge">
+                                <h4 class="layer-title"><i class="fa-solid fa-globe"></i> DNS & Edge Security</h4>
+                                <div class="node-grid">
+                                    <div class="node-item clickable" data-node="dns">
+                                        <div class="node-label">DNS Service</div>
+                                        <div class="node-value" id="val-dns">Route 53</div>
+                                    </div>
+                                    <div class="node-item clickable" data-node="cdn">
+                                        <div class="node-label">CDN / Edge Cache</div>
+                                        <div class="node-value" id="val-cdn">CloudFront</div>
+                                    </div>
+                                    <div class="node-item clickable" data-node="waf">
+                                        <div class="node-label">WAF & Shield</div>
+                                        <div class="node-value" id="val-waf">AWS WAF / Shield</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Layer 2: API Gateway & Service Mesh -->
+                            <div class="diagram-layer" data-layer="routing">
+                                <h4 class="layer-title"><i class="fa-solid fa-route"></i> API Routing & Service Mesh</h4>
+                                <div class="node-grid">
+                                    <div class="node-item clickable" data-node="ingress">
+                                        <div class="node-label">Load Balancer / Ingress</div>
+                                        <div class="node-value" id="val-ingress">ALB</div>
+                                    </div>
+                                    <div class="node-item clickable" data-node="gateway">
+                                        <div class="node-label">API Gateway</div>
+                                        <div class="node-value" id="val-gateway">Kong API Gateway</div>
+                                    </div>
+                                    <div class="node-item clickable" data-node="mesh">
+                                        <div class="node-label">Service Mesh (mTLS)</div>
+                                        <div class="node-value" id="val-mesh">Istio Ambient Mesh</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Layer 3: Container Orchestration & Autoscaling -->
+                            <div class="diagram-layer" data-layer="compute">
+                                <h4 class="layer-title"><i class="fa-solid fa-dharmachakra"></i> Container Orchestration & Scale</h4>
+                                <div class="node-grid">
+                                    <div class="node-item clickable highlight" data-node="k8s">
+                                        <div class="node-label">Kubernetes Engine</div>
+                                        <div class="node-value" id="val-k8s">Amazon EKS</div>
+                                    </div>
+                                    <div class="node-item clickable" data-node="scaling">
+                                        <div class="node-label">Autoscaling Agent</div>
+                                        <div class="node-value" id="val-scaling">Karpenter / HPA / KEDA</div>
+                                    </div>
+                                    <div class="node-item clickable" data-node="secrets">
+                                        <div class="node-label">Secret & Key Mgmt</div>
+                                        <div class="node-value" id="val-secrets">AWS Secrets Manager</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Layer 4: Databases, Cache & Messaging -->
+                            <div class="diagram-layer" data-layer="data">
+                                <h4 class="layer-title"><i class="fa-solid fa-database"></i> Persistence & Messaging</h4>
+                                <div class="node-grid">
+                                    <div class="node-item clickable" data-node="db">
+                                        <div class="node-label">RDBMS Database</div>
+                                        <div class="node-value" id="val-db">RDS PostgreSQL</div>
+                                    </div>
+                                    <div class="node-item clickable" data-node="cache">
+                                        <div class="node-label">Distributed Cache</div>
+                                        <div class="node-value" id="val-cache">ElastiCache Redis</div>
+                                    </div>
+                                    <div class="node-item clickable" data-node="queue">
+                                        <div class="node-label">Message Streaming</div>
+                                        <div class="node-value" id="val-queue">Amazon MSK / Kafka</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Layer 5: Observability & CI/CD Operations -->
+                            <div class="diagram-layer" data-layer="ops">
+                                <h4 class="layer-title"><i class="fa-solid fa-chart-line"></i> Observability & CI/CD Operations</h4>
+                                <div class="node-grid">
+                                    <div class="node-item clickable" data-node="cicd">
+                                        <div class="node-label">CI/CD Engine & GitOps</div>
+                                        <div class="node-value" id="val-cicd">GitHub Actions / Argo CD</div>
+                                    </div>
+                                    <div class="node-item clickable" data-node="metrics">
+                                        <div class="node-label">Metrics & Logging</div>
+                                        <div class="node-value" id="val-metrics">Prometheus / Loki / Alloy</div>
+                                    </div>
+                                    <div class="node-item clickable" data-node="tracing">
+                                        <div class="node-label">OTel Distributed Tracing</div>
+                                        <div class="node-value" id="val-tracing">Tempo / Jaeger / Beyla (eBPF)</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <!-- Diagram Details Panel -->
+                    <div class="details-panel" id="node-details-card">
+                        <div class="panel-terminal-header">
+                            <span class="panel-dot"></span>
+                            <span class="panel-title">Component Inspector</span>
+                        </div>
+                        <div class="panel-content">
+                            <div id="inspector-initial">
+                                <i class="fa-solid fa-circle-info inspector-icon"></i>
+                                <h3>Architecture Inspector</h3>
+                                <p>Click on any architectural node in the diagram to inspect its technical details, implementation specifics, and benefits in my projects.</p>
+                            </div>
+                            <div id="inspector-data" class="hidden">
+                                <div class="inspector-header">
+                                    <span class="node-type-badge" id="inspect-category">Compute</span>
+                                    <h3 id="inspect-name">Amazon EKS</h3>
+                                </div>
+                                <div class="inspector-body">
+                                    <div class="spec-group">
+                                        <label>Active Implementation:</label>
+                                        <span class="spec-val" id="inspect-active">EKS v1.28+</span>
+                                    </div>
+                                    <div class="spec-group">
+                                        <label>Purpose & Details:</label>
+                                        <p id="inspect-desc">Orchestrates 30+ payment microservices on EKS, utilizing AWS Pod Identities, AWS VPC CNI, and fine-grained IAM roles for service accounts (IRSA).</p>
+                                    </div>
+                                    <div class="spec-group">
+                                        <label>Key Accomplishments:</label>
+                                        <ul id="inspect-achievements">
+                                            <li>Maintained 99.99% availability for FAB payment endpoints.</li>
+                                            <li>Integrated Kyverno policies to ensure container runtime compliance.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Studies Gallery Section -->
+        <section id="case-studies" class="gallery-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Case Studies & Architecture Gallery</h2>
+                    <p class="section-subtitle">Click on any case study card below to open its technical architecture diagram and explore a deep breakdown of the implementation, components, and results.</p>
+                </div>
+
+                <div class="gallery-grid">
+                    <!-- Case Study 0: Node.js DevSecOps Pipeline -->
+                    <div class="gallery-card" data-study="node-devsecops">
+                        <div class="gallery-card-img-container">
+                            <img src="node_devsecops_pipeline.png" alt="Enterprise Node.js DevSecOps Pipeline Diagram" class="gallery-card-img">
+                        </div>
+                        <div class="gallery-card-content">
+                            <span class="gallery-card-tag">DevSecOps · Node.js · Jenkins</span>
+                            <h3 class="gallery-card-title">Enterprise Node.js DevSecOps Pipeline</h3>
+                            <p class="gallery-card-desc">Comprehensive automation scanning code (Semgrep/NJSSCAN), dependencies (Retire.js), Docker images (Trivy), signing builds (Cosign), and SIEM integration (Wazuh).</p>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 1: AWS Payments -->
+                    <div class="gallery-card" data-study="payment-aws">
+                        <div class="gallery-card-img-container">
+                            <img src="ChatGPT Image Aug 9, 2026, 10_19_30 AM.png" alt="AWS Multi-Account Payments Platform Architecture" class="gallery-card-img">
+                        </div>
+                        <div class="gallery-card-content">
+                            <span class="gallery-card-tag">AWS · Payments · scale</span>
+                            <h3 class="gallery-card-title">Multi-Account AWS Payment Platform</h3>
+                            <p class="gallery-card-desc">Highly available infrastructure orchestration using EKS, sidecarless Istio Ambient Mesh, Karpenter scaling, and RDS PostgreSQL replication.</p>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 2: Azure Payments -->
+                    <div class="gallery-card" data-study="ragnarok-azure">
+                        <div class="gallery-card-img-container">
+                            <img src="ChatGPT Image Aug 9, 2026, 10_15_08 AM.png" alt="AI Agentic PM Azure Platform Architecture" class="gallery-card-img">
+                        </div>
+                        <div class="gallery-card-content">
+                            <span class="gallery-card-tag">Azure · AIops · Secrets</span>
+                            <h3 class="gallery-card-title">Agentic PM & RAGNAROK AI Scaling</h3>
+                            <p class="gallery-card-desc">AKS cluster running generative AI prompt engines, connected through Private Endpoints to Azure OpenAI, Cognitive Search, and Service Bus.</p>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 3: On-Prem Payments -->
+                    <div class="gallery-card" data-study="payment-onprem">
+                        <div class="gallery-card-img-container">
+                            <img src="ChatGPT Image Aug 9, 2026, 10_42_28 AM.png" alt="On-Premises Payment Platform Architecture" class="gallery-card-img">
+                        </div>
+                        <div class="gallery-card-content">
+                            <span class="gallery-card-tag">On-Premises · Kubernetes</span>
+                            <h3 class="gallery-card-title">Bare-Metal Payment Cluster</h3>
+                            <p class="gallery-card-desc">Local high availability cluster running CloudNativePG PostgreSQL, MetalLB load balancers, and HashiCorp Vault secrets operators.</p>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 4: PadosPay (WhatsApp) -->
+                    <div class="gallery-card" data-study="padospay-aws">
+                        <div class="gallery-card-img-container">
+                            <img src="ChatGPT Image Aug 9, 2026, 10_07_43 AM.png" alt="PadosPay WhatsApp Payment Architecture" class="gallery-card-img">
+                        </div>
+                        <div class="gallery-card-content">
+                            <span class="gallery-card-tag">Freelance · AWS ECS Fargate</span>
+                            <h3 class="gallery-card-title">PadosPay: Chatbot Payment Automation</h3>
+                            <p class="gallery-card-desc">Serverless ECS container clusters hosting WhatsApp Business Cloud APIs and webhook processing engines with event-driven Redis state caching.</p>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 5: Flutter iOS DevSecOps -->
+                    <div class="gallery-card" data-study="flutter-ios-devsecops">
+                        <div class="gallery-card-img-container">
+                            <img src="WhatsApp Image 2026-08-15 at 5.34.19 PM.jpeg" alt="Flutter iOS DevSecOps Pipeline Diagram" class="gallery-card-img">
+                        </div>
+                        <div class="gallery-card-content">
+                            <span class="gallery-card-tag">Mobile DevOps · Jenkins</span>
+                            <h3 class="gallery-card-title">Flutter iOS DevSecOps Pipeline (IPA)</h3>
+                            <p class="gallery-card-desc">End-to-end Jenkins pipeline integrating pre-build Gitleaks scans, Semgrep SAST, dependency scans, MobSF dynamic scans, and SeaweedFS.</p>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 6: Flutter Android DevSecOps -->
+                    <div class="gallery-card" data-study="flutter-android-devsecops">
+                        <div class="gallery-card-img-container">
+                            <img src="WhatsApp Image 2026-08-15 at 5.34.20 PM.jpeg" alt="Flutter Android DevSecOps Pipeline Diagram" class="gallery-card-img">
+                        </div>
+                        <div class="gallery-card-content">
+                            <span class="gallery-card-tag">Mobile DevOps · Jenkins</span>
+                            <h3 class="gallery-card-title">Flutter Android DevSecOps Pipeline</h3>
+                            <p class="gallery-card-desc">Android packaging build pipeline integrating shift-left security checks, SonarQube code quality gates, and automated apksigner checks.</p>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 7: Flutter iOS Release -->
+                    <div class="gallery-card" data-study="flutter-ios-cicd">
+                        <div class="gallery-card-img-container">
+                            <img src="ChatGPT Image Aug 15, 2026, 03_10_54 PM.png" alt="Flutter iOS CI/CD Release Flow" class="gallery-card-img">
+                        </div>
+                        <div class="gallery-card-content">
+                            <span class="gallery-card-tag">Mobile CI/CD · App Store</span>
+                            <h3 class="gallery-card-title">Flutter iOS App Store Release Flow</h3>
+                            <p class="gallery-card-desc">GitHub Actions workflows triggering Fastlane Match certificate signing, TestFlight distributions, and App Store Connect API submissions.</p>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 8: Flutter Android Release -->
+                    <div class="gallery-card" data-study="flutter-android-cicd">
+                        <div class="gallery-card-img-container">
+                            <img src="WhatsApp Image 2026-08-15 at 2.56.59 PM.jpeg" alt="Flutter Android CI/CD Release Flow" class="gallery-card-img">
+                        </div>
+                        <div class="gallery-card-content">
+                            <span class="gallery-card-tag">Mobile CI/CD · Firebase</span>
+                            <h3 class="gallery-card-title">Flutter Android Beta Release Flow</h3>
+                            <p class="gallery-card-desc">GitHub Actions compiling and signing APK/AAB packages, and distributing builds automatically to Firebase App Distribution.</p>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 9: LGTM Stack -->
+                    <div class="gallery-card" data-study="monitoring-lgtm">
+                        <div class="gallery-card-img-container">
+                            <img src="ChatGPT Image Aug 10, 2026, 05_15_13 AM.png" alt="Grafana LGTM Stack Observability Architecture" class="gallery-card-img">
+                        </div>
+                        <div class="gallery-card-content">
+                            <span class="gallery-card-tag">Observability · LGTM</span>
+                            <h3 class="gallery-card-title">Enterprise Telemetry via LGTM & eBPF</h3>
+                            <p class="gallery-card-desc">Highly integrated metrics, logs, and distributed traces setup, utilizing zero-code metrics collection via Grafana Beyla and Alloy.</p>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 10: ELK Stack -->
+                    <div class="gallery-card" data-study="monitoring-elk">
+                        <div class="gallery-card-img-container">
+                            <img src="ChatGPT Image Aug 10, 2026, 05_25_01 AM.png" alt="ELK Stack Observability Architecture" class="gallery-card-img">
+                        </div>
+                        <div class="gallery-card-content">
+                            <span class="gallery-card-tag">Observability · ELK Stack</span>
+                            <h3 class="gallery-card-title">Log Analytics & APM via ELK Stack</h3>
+                            <p class="gallery-card-desc">Log collection (Beats) and ingestion pipelines (Logstash) powering core APM dashboards inside Elasticsearch and Kibana.</p>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 11: .NET DevSecOps -->
+                    <div class="gallery-card" data-study="dotnet-devsecops">
+                        <div class="gallery-card-img-container">
+                            <img src="dotnet_devsecops_diagram_v2 1 (1).png" alt=".NET DevSecOps Pipeline Layout" class="gallery-card-img">
+                        </div>
+                        <div class="gallery-card-content">
+                            <span class="gallery-card-tag">DevSecOps · Jenkins · ArgoCD</span>
+                            <h3 class="gallery-card-title">.NET Backend CI/CD Pipeline</h3>
+                            <p class="gallery-card-desc">Jenkins multi-branch builds running SonarQube checks, Trivy scans, and ArgoCD Kubernetes GitOps integrations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience Section -->
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Professional Experience</h2>
+                    <p class="section-subtitle">Chronological record of my career delivering reliable cloud infrastructure, automations, and software applications.</p>
+                </div>
+                
+                <div class="timeline">
+                    <!-- Experience 1: FAB (UAE) -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Feb 2022 - Present</div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div class="job-title">Senior DevOps / Cloud Engineer</div>
+                                <div class="company-client">Global Software Solutions — Client: <strong>First Abu Dhabi Bank (FAB)</strong>, UAE</div>
+                            </div>
+                            <div class="tags-row">
+                                <span class="tag">AWS</span>
+                                <span class="tag">EKS</span>
+                                <span class="tag">Terraform</span>
+                                <span class="tag">Terragrunt</span>
+                                <span class="tag">ArgoCD</span>
+                                <span class="tag">Istio</span>
+                                <span class="tag">Kong</span>
+                                <span class="tag">Kafka</span>
+                                <span class="tag">Fastlane</span>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Led the full cloud migration for First Abu Dhabi Bank (FAB) to AWS using Terraform IaC, EKS, and 30+ payment microservices with zero downtime.</p>
+                                <ul class="timeline-details">
+                                    <li><strong>AWS Infrastructure Automation:</strong> Provisioned scalable multi-account environments using Terraform/Terragrunt, cutting provisioning time by 80%.</li>
+                                    <li><strong>Zero Downtime Releases:</strong> Implemented Argo Rollouts with Blue-Green and Canary deployment strategies.</li>
+                                    <li><strong>Service Mesh & API Gateway:</strong> Managed Istio Service Mesh for mTLS, traffic splitting, and circuit breaking; utilized Kong API Gateway for JWT/OAuth2.</li>
+                                    <li><strong>Observability & Monitoring:</strong> Configured centralized telemetry via Grafana, Prometheus, ELK Stack, Loki, and OpenTelemetry for proactive alerting.</li>
+                                    <li><strong>Mobile DevOps:</strong> Created automated build and release pipelines for Android/iOS apps using Fastlane, Gradle, Xcode, and GitHub Actions.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Experience 2: Pay10 (Kenya) -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Feb 2022 - Present</div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div class="job-title">Senior DevOps / Cloud Engineer</div>
+                                <div class="company-client">Global Software Solutions — Client: <strong>Pay10</strong>, Kenya</div>
+                            </div>
+                            <div class="tags-row">
+                                <span class="tag">Azure</span>
+                                <span class="tag">AKS</span>
+                                <span class="tag">Terraform</span>
+                                <span class="tag">Azure DevOps</span>
+                                <span class="tag">Patroni PostgreSQL</span>
+                                <span class="tag">Falco</span>
+                                <span class="tag">Kyverno</span>
+                                <span class="tag">Flutter</span>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Designed and managed highly resilient Payment applications deployed on Azure Kubernetes Service (AKS).</p>
+                                <ul class="timeline-details">
+                                    <li><strong>Azure Provisioning:</strong> Automated VNets, VPN Gateways, Application Gateways, and PostgreSQL with high availability using Patroni.</li>
+                                    <li><strong>DevSecOps & Compliance:</strong> Configured Kyverno policies, Falco runtime threat detection, and Kubescape compliance scanning.</li>
+                                    <li><strong>Secrets & Certificates:</strong> Integrated Azure Key Vault with Workload Identities to enforce least-privilege credential access.</li>
+                                    <li><strong>Mobile Release Pipelines:</strong> Automated Flutter-based mobile app compilation and code-signing with Fastlane.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Experience 3: Hollywood Films -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Feb 2020 - Jan 2022</div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div class="job-title">DevOps Engineer</div>
+                                <div class="company-client">NeuralSchema Infotech — Client: <strong>Hollywood Films Company</strong></div>
+                            </div>
+                            <div class="tags-row">
+                                <span class="tag">AWS</span>
+                                <span class="tag">Kubernetes</span>
+                                <span class="tag">Docker</span>
+                                <span class="tag">GitHub Actions</span>
+                                <span class="tag">React.js</span>
+                                <span class="tag">Node.js</span>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Managed core AWS platforms and microservice infrastructure, facilitating a monolith-to-microservices migration.</p>
+                                <ul class="timeline-details">
+                                    <li><strong>AWS Administration:</strong> Configured EC2, RDS PostgreSQL, S3, IAM, CloudWatch, and Route 53 across development and production environments.</li>
+                                    <li><strong>GitHub Actions:</strong> Designed pipelines for containerized React.js and Node.js microservices.</li>
+                                    <li><strong>Migration:</strong> Containerized legacy applications using Docker and migrated them to Kubernetes with rolling update strategies.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Experience 4: Tact Technologies (Developer) -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Nov 2018 - Dec 2019</div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div class="job-title">Software Developer</div>
+                                <div class="company-client">Tact Technologies, India</div>
+                            </div>
+                            <div class="tags-row">
+                                <span class="tag">ReactJS</span>
+                                <span class="tag">Java</span>
+                                <span class="tag">Spring Boot</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">Docker</span>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Developed enterprise e-commerce and healthcare platforms, contributing as a full-stack engineer prior to transitioning into DevOps.</p>
+                                <ul class="timeline-details">
+                                    <li><strong>Application Development:</strong> Programmed responsive frontends in ReactJS and secure backend REST APIs in Java Spring Boot.</li>
+                                    <li><strong>Authentication:</strong> Implemented JWT-based authentication and role-based access control (RBAC).</li>
+                                    <li><strong>Dockerization:</strong> Containerized development environments for consistent engineering onboarding.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Career Transition Metaphor Card -->
+                    <div class="timeline-item transition-milestone">
+                        <div class="timeline-dot special-dot"></div>
+                        <div class="timeline-date">Before 2018</div>
+                        <div class="timeline-card catalyst-card">
+                            <div class="catalyst-header">
+                                <div class="catalyst-icon"><i class="fa-solid fa-flask"></i></div>
+                                <div>
+                                    <div class="catalyst-title">My Catalyst: Transitioning to Tech</div>
+                                    <div class="catalyst-subtitle">From B.Sc. Chemistry & Chemical Operations to DevOps Architect</div>
+                                </div>
+                            </div>
+                            <div class="catalyst-body">
+                                <p>
+                                    Before stepping into IT, I spent years working as a Process Operator in chemical manufacturing (Saudi Arabian Fertilizer Company). This background taught me <strong>industrial reliability, strict safety protocols, and complex process automation</strong>—principles that perfectly map to DevOps. Just as chemical plants require strict pressure valves and monitoring, modern cloud platforms require autoscalers, alerts, and robust guardrails. I synthesized my passion for automation and completed my "career reaction", mastering coding and system engineering to emerge as a Senior Cloud Engineer.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Specialized Spotlights: Mobile DevOps & DevSecOps -->
+        <section id="mobile-sec" class="spotlight-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Specialized DevOps Architectures</h2>
+                    <p class="section-subtitle">Showcasing deep capability in Mobile CI/CD pipelines (iOS/Android) and modern Kubernetes security topologies.</p>
+                </div>
+                
+                <div class="spotlight-grid">
+                    <!-- Column 1: Mobile DevOps -->
+                    <div class="spotlight-card">
+                        <div class="spotlight-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                        <h3>Mobile App Release Automation</h3>
+                        <p class="spotlight-intro">Mobile DevOps is uniquely complex due to compilation, code-signing certificates, and app store validation gates. I have automated mobile releases for payment applications:</p>
+                        
+                        <div class="mobile-steps">
+                            <div class="mobile-step">
+                                <div class="step-badge">1</div>
+                                <div>
+                                    <h4>Multi-Platform Builds</h4>
+                                    <p>Automated compilation of Native Android (Gradle), iOS (Xcode), and Flutter applications within GitHub Actions and Azure DevOps runners.</p>
+                                </div>
+                            </div>
+                            <div class="mobile-step">
+                                <div class="step-badge">2</div>
+                                <div>
+                                    <h4>Code-Signing via Fastlane</h4>
+                                    <p>Configured Fastlane Match to securely fetch iOS provisioning profiles and keystores from encrypted vaults, eliminating manual certificates.</p>
+                                </div>
+                            </div>
+                            <div class="mobile-step">
+                                <div class="step-badge">3</div>
+                                <div>
+                                    <h4>Beta & Production Releases</h4>
+                                    <p>Set up automated distribution to Firebase App Distribution/TestFlight (Beta) and direct deployment API pushes to Google Play and App Store.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Column 2: DevSecOps Pipelines -->
+                    <div class="spotlight-card">
+                        <div class="spotlight-icon"><i class="fa-solid fa-user-shield"></i></div>
+                        <h3>DevSecOps Security Topology</h3>
+                        <p class="spotlight-intro">Security is integrated directly into the pipelines rather than being treated as an afterthought, featuring quality gates and real-time vulnerability tracking.</p>
+                        
+                        <!-- Mini-pipeline visualizer -->
+                        <div class="pipeline-flow">
+                            <div class="pipe-node">
+                                <i class="fa-solid fa-code"></i>
+                                <span>Commit</span>
+                                <small class="sec-label">Gitleaks</small>
+                            </div>
+                            <div class="pipe-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+                            <div class="pipe-node">
+                                <i class="fa-solid fa-terminal"></i>
+                                <span>Build</span>
+                                <small class="sec-label">Semgrep SAST</small>
+                            </div>
+                            <div class="pipe-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+                            <div class="pipe-node">
+                                <i class="fa-solid fa-box"></i>
+                                <span>Package</span>
+                                <small class="sec-label">Trivy SCA</small>
+                            </div>
+                            <div class="pipe-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+                            <div class="pipe-node">
+                                <i class="fa-solid fa-cloud-arrow-up"></i>
+                                <span>Deploy</span>
+                                <small class="sec-label">OWASP DAST</small>
+                            </div>
+                        </div>
+
+                        <div class="security-highlights">
+                            <div class="sec-item">
+                                <i class="fa-solid fa-check-double text-cyan"></i>
+                                <span><strong>DefectDojo Integration:</strong> Consolidated security test findings into a central DefectDojo dashboard, automatically breaking builds if critical bugs are found.</span>
+                            </div>
+                            <div class="sec-item">
+                                <i class="fa-solid fa-check-double text-cyan"></i>
+                                <span><strong>Kyverno Policies:</strong> Enforced pod-level rules (blocking root access, requiring read-only root filesystems) directly in Kubernetes admission controller phases.</span>
+                            </div>
+                            <div class="sec-item">
+                                <i class="fa-solid fa-check-double text-cyan"></i>
+                                <span><strong>Runtime Monitoring:</strong> Configured Falco rules to alert on suspicious behaviors (e.g. shells spawned inside active pods).</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pipeline Diagram Render -->
+                <div class="diagram-attachment-card">
+                    <div class="diagram-attachment-header">
+                        <i class="fa-solid fa-diagram-project"></i> DotNet DevSecOps Pipeline Diagram
+                    </div>
+                    <div class="diagram-image-container">
+                        <img src="assets/images/dotnet_devsecops_diagram.png" alt="DotNet DevSecOps Architecture and Release Pipeline Diagram" class="diagram-img">
+                    </div>
+                    <div class="diagram-caption">
+                        Actual DevSecOps Architecture implemented showing integration of ArgoCD, Jenkins pipelines, SonarQube, Trivy scan, and secure EKS deployments.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Inventory & Live Filtering -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <p class="section-subtitle">Explore my technical toolkit. Filter by category or search for specific tools in my stack.</p>
+                </div>
+                
+                <!-- Search & Filters -->
+                <div class="filter-controls">
+                    <div class="search-box">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        <input type="text" id="skill-search" placeholder="Search skills (e.g., Terraform, Docker)...">
+                    </div>
+                    <div class="filter-tags" id="skills-filter-tags">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="cloud">Cloud Platforms</button>
+                        <button class="filter-btn" data-filter="k8s">Containers & Service Mesh</button>
+                        <button class="filter-btn" data-filter="iac">IaC & Config</button>
+                        <button class="filter-btn" data-filter="cicd">CI/CD & GitOps</button>
+                        <button class="filter-btn" data-filter="mobile">Mobile DevOps</button>
+                        <button class="filter-btn" data-filter="sec">Security & DevSecOps</button>
+                        <button class="filter-btn" data-filter="ops">Observability</button>
+                        <button class="filter-btn" data-filter="db">Databases & Msg</button>
+                    </div>
+                </div>
+                
+                <!-- Skills Grid -->
+                <div class="skills-grid" id="skills-container">
+                    <!-- Cloud Platforms -->
+                    <div class="skill-item" data-category="cloud">
+                        <div class="skill-header">
+                            <i class="fa-brands fa-aws skill-icon aws-color"></i>
+                            <span class="skill-name">AWS</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 95%"></span></div>
+                        <p class="skill-description">VPC, EKS, RDS, S3, IAM, CloudFront, Secrets Manager, Route 53, KMS, Security Hub.</p>
+                    </div>
+                    
+                    <div class="skill-item" data-category="cloud">
+                        <div class="skill-header">
+                            <i class="fa-brands fa-microsoft skill-icon azure-color"></i>
+                            <span class="skill-name">Azure</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 85%"></span></div>
+                        <p class="skill-description">AKS, Virtual Network, Key Vault, Application Gateway, Azure DevOps, Blob Storage, Azure SQL.</p>
+                    </div>
+
+                    <!-- Containers & Mesh -->
+                    <div class="skill-item" data-category="k8s">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-dharmachakra skill-icon k8s-color"></i>
+                            <span class="skill-name">Kubernetes</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 95%"></span></div>
+                        <p class="skill-description">EKS, AKS, ingress controllers, Helm, Karpenter node provisioning, HPA, KEDA autoscaling.</p>
+                    </div>
+
+                    <div class="skill-item" data-category="k8s">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-network-wired skill-icon mesh-color"></i>
+                            <span class="skill-name">Istio Service Mesh</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 90%"></span></div>
+                        <p class="skill-description">Istio Ambient Mesh, mTLS encryption, traffic routing/mirroring, circuit breakers, egress gateways.</p>
+                    </div>
+
+                    <div class="skill-item" data-category="k8s">
+                        <div class="skill-header">
+                            <i class="fa-brands fa-docker skill-icon docker-color"></i>
+                            <span class="skill-name">Docker</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 95%"></span></div>
+                        <p class="skill-description">Multi-stage builds, image optimization, security scanning, local environments containerization.</p>
+                    </div>
+
+                    <!-- IaC -->
+                    <div class="skill-item" data-category="iac">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-code-branch skill-icon iac-color"></i>
+                            <span class="skill-name">Terraform & Terragrunt</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 95%"></span></div>
+                        <p class="skill-description">Modular architecture, multi-environment setups, Terragrunt DRY structures, remote states locking.</p>
+                    </div>
+
+                    <div class="skill-item" data-category="iac">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-gears skill-icon ansible-color"></i>
+                            <span class="skill-name">Ansible</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 80%"></span></div>
+                        <p class="skill-description">Automated VM configuration, patches deployment, and setup tasks orchestration via playbooks.</p>
+                    </div>
+
+                    <!-- CI/CD & GitOps -->
+                    <div class="skill-item" data-category="cicd">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-sync skill-icon argo-color"></i>
+                            <span class="skill-name">ArgoCD & GitOps</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 95%"></span></div>
+                        <p class="skill-description">Application controller synchronization, declarative Git repo source of truth, Argo Rollouts canary/blue-green.</p>
+                    </div>
+
+                    <div class="skill-item" data-category="cicd">
+                        <div class="skill-header">
+                            <i class="fa-brands fa-jenkins skill-icon jenkins-color"></i>
+                            <span class="skill-name">Jenkins Pipelines</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 90%"></span></div>
+                        <p class="skill-description">Shared libraries, multi-branch pipeline scripts, distributed builds agents scaling, security gates.</p>
+                    </div>
+
+                    <div class="skill-item" data-category="cicd">
+                        <div class="skill-header">
+                            <i class="fa-brands fa-github-actions skill-icon gh-color"></i>
+                            <span class="skill-name">GitHub Actions</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 90%"></span></div>
+                        <p class="skill-description">Custom composite workflows, reusable runners management, secret tokens integration, dependency caching.</p>
+                    </div>
+
+                    <!-- Mobile DevOps -->
+                    <div class="skill-item" data-category="mobile">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-mobile-retro skill-icon fastlane-color"></i>
+                            <span class="skill-name">Fastlane Automation</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 95%"></span></div>
+                        <p class="skill-description">Match profile mapping, iOS/Android metadata sync, automated builds distribution, Gradle integration.</p>
+                    </div>
+
+                    <div class="skill-item" data-category="mobile">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-cubes-stacked skill-icon compile-color"></i>
+                            <span class="skill-name">Xcode & Gradle Build Tools</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 90%"></span></div>
+                        <p class="skill-description">Keychain unlocking, plist & manifest modifications, build flavoring, compiler optimization.</p>
+                    </div>
+
+                    <!-- Security & DevSecOps -->
+                    <div class="skill-item" data-category="sec">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-vault skill-icon vault-color"></i>
+                            <span class="skill-name">HashiCorp Vault</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 90%"></span></div>
+                        <p class="skill-description">Vault Secrets Operator, transit engine encryption, dynamic database credentials, policy management.</p>
+                    </div>
+
+                    <div class="skill-item" data-category="sec">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-bug-slash skill-icon secscan-color"></i>
+                            <span class="skill-name">Security Scanners</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 95%"></span></div>
+                        <p class="skill-description">Trivy (SCA/Containers), Semgrep (SAST), Gitleaks (Secrets), OWASP ZAP (DAST), DefectDojo hub.</p>
+                    </div>
+
+                    <div class="skill-item" data-category="sec">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-shield-halved skill-icon policy-color"></i>
+                            <span class="skill-name">Kyverno & Falco</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 90%"></span></div>
+                        <p class="skill-description">Policy-based Kubernetes validation, runtime detection of anomalous kernel-level behaviors.</p>
+                    </div>
+
+                    <!-- Observability -->
+                    <div class="skill-item" data-category="ops">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-chart-line skill-icon grafana-color"></i>
+                            <span class="skill-name">Prometheus & Grafana</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 95%"></span></div>
+                        <p class="skill-description">PromQL, Alertmanager, custom operational dashboards, Prometheus Operator configurations.</p>
+                    </div>
+
+                    <div class="skill-item" data-category="ops">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-file-invoice-dollar skill-icon loki-color"></i>
+                            <span class="skill-name">Loki, Alloy & Tempo</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 90%"></span></div>
+                        <p class="skill-description">Grafana LGTM stack, logs shipping via Alloy, distributed tracing correlation using Tempo.</p>
+                    </div>
+
+                    <div class="skill-item" data-category="ops">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-wave-square skill-icon otel-color"></i>
+                            <span class="skill-name">OpenTelemetry & eBPF</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 85%"></span></div>
+                        <p class="skill-description">Zero-code autoinstrumentation with Grafana Beyla (eBPF), custom collector routing pipelines.</p>
+                    </div>
+
+                    <!-- Databases & Messaging -->
+                    <div class="skill-item" data-category="db">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-database skill-icon db-color"></i>
+                            <span class="skill-name">PostgreSQL (HA)</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 90%"></span></div>
+                        <p class="skill-description">Patroni clustering, replica syncing, backup scripts, CloudNativePG operator in Kubernetes.</p>
+                    </div>
+
+                    <div class="skill-item" data-category="db">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-circle-nodes skill-icon kafka-color"></i>
+                            <span class="skill-name">Apache Kafka & MSK</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 85%"></span></div>
+                        <p class="skill-description">Strimzi operator configurations, partition planning, MirrorMaker DR replication, consumer lag tracking.</p>
+                    </div>
+
+                    <div class="skill-item" data-category="db">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-bolt skill-icon redis-color"></i>
+                            <span class="skill-name">Redis & Redis Sentinel</span>
+                        </div>
+                        <div class="skill-level"><span class="level-fill" style="width: 90%"></span></div>
+                        <p class="skill-description">Session caching clusters, sentinel failover setups, cluster sharding for memory expansion.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container contact-container">
+                
+                <!-- Contact info cards -->
+                <div class="contact-info">
+                    <div class="section-header align-left">
+                        <h2 class="section-title">Get In Touch</h2>
+                        <p class="section-subtitle">Let's discuss how my expertise can streamline your infrastructure, improve release velocity, and secure your cloud assets.</p>
+                    </div>
+                    
+                    <div class="info-list">
+                        <!-- Email -->
+                        <div class="info-card clickable" onclick="copyText('kduraitech@gmail.com', 'email-tooltip')">
+                            <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="info-details">
+                                <span class="info-label">Email Me</span>
+                                <span class="info-value">kduraitech@gmail.com</span>
+                            </div>
+                            <span class="copy-badge" id="email-tooltip">Click to Copy</span>
+                        </div>
+                        
+                        <!-- Phone -->
+                        <div class="info-card clickable" onclick="copyText('+916379691338', 'phone-tooltip')">
+                            <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="info-details">
+                                <span class="info-label">Call / WhatsApp</span>
+                                <span class="info-value">+91 6379691338</span>
+                            </div>
+                            <span class="copy-badge" id="phone-tooltip">Click to Copy</span>
+                        </div>
+                        
+                        <!-- Location -->
+                        <div class="info-card">
+                            <div class="info-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                            <div class="info-details">
+                                <span class="info-label">Current Location</span>
+                                <span class="info-value">Tirunelveli, Tamil Nadu, India</span>
+                            </div>
+                            <span class="relocate-badge">Relocatable</span>
+                        </div>
+                    </div>
+                    
+                    <div class="cert-badge-wrapper">
+                        <div class="cert-title">Professional Credentials</div>
+                        <div class="cert-card">
+                            <div class="cert-icon"><i class="fa-brands fa-aws text-orange"></i></div>
+                            <div>
+                                <h4 class="cert-name">AWS Certified Solutions Architect</h4>
+                                <p class="cert-issuer">Issued by Amazon Web Services (AWS)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form-card">
+                    <div class="form-terminal-header">
+                        <span class="form-dot"></span>
+                        <span class="form-title">Send a Secure Message</span>
+                    </div>
+                    <form id="portfolio-contact-form" class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="e.g. Jane Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="e.g. jane@company.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="e.g. DevOps Opportunities / Consultation">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Describe your project, team, or opportunity..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+                    </form>
+                    <div id="form-success" class="form-status success hidden">
+                        <i class="fa-solid fa-circle-check"></i> Message sent successfully! I will get back to you shortly.
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <p class="copyright">&copy; 2026 T. Kutti Durai. All rights reserved. Managed via GitOps & IaC.</p>
+            <div class="footer-meta">
+                <span>Designed with <i class="fa-solid fa-heart text-red"></i> for High Availability</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal for Case Studies -->
+    <div id="lightbox-modal" class="lightbox-modal">
+        <div class="lightbox-container">
+            <button class="lightbox-close" id="lightbox-close" title="Close Lightbox"><i class="fa-solid fa-xmark"></i></button>
+            <div class="lightbox-image-side">
+                <img id="modal-img" src="" alt="Architecture Diagram" class="lightbox-img">
+            </div>
+            <div class="lightbox-content-side">
+                <span class="lightbox-category" id="modal-category">Payment Platforms</span>
+                <h3 class="lightbox-title" id="modal-title">AWS Multi-Account Payment platform</h3>
+                <p class="lightbox-summary" id="modal-summary">Detailed operational summary goes here.</p>
+                
+                <h4 class="lightbox-section-title">Core Technology Stack</h4>
+                <div class="lightbox-tech-tags" id="modal-tech-tags">
+                    <span class="tag">AWS EKS</span>
+                    <span class="tag">Istio Mesh</span>
+                </div>
+                
+                <h4 class="lightbox-section-title">Implementation & Accomplishments</h4>
+                <ul class="lightbox-details-list" id="modal-details-list">
+                    <li>Built EKS cluster...</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Interactivity Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>

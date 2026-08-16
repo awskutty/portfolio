@@ -1,0 +1,123 @@
+DESIGN & BUILD & DEPLOY
+HIGHLY AVAILABLE & SCALABLE & SECURE
+PAYMENT APPLICATION ON AWS
+│
+├── Cloud Platform
+│   └── AWS
+│
+├── Container Platform
+│   └── Amazon EKS
+│
+├── Networking & Traffic
+│   ├── Route 53
+│   ├── CloudFront
+│   ├── AWS WAF
+│   ├── AWS Shield Advanced
+│   ├── Application Load Balancer
+│   ├── Kong API Gateway
+│   └── Istio Ambient Mesh
+│
+├── Identity & Access
+│   ├── AWS IAM
+│   ├── IAM Identity Center
+│   ├── EKS Pod Identity
+│   ├── Kubernetes RBAC
+│   └── FusionAuth
+│
+├── Autoscaling
+│   ├── Karpenter
+│   ├── HPA
+│   └── KEDA
+│
+├── Application Layer
+│
+├── Frontend
+│   ├── Next.js
+│   │   └── Frontend Application
+│   │
+│   └── React Flow
+│       └── Architecture Designer
+│
+├── Backend Microservices
+│   ├── NestJS
+│   │   └── 7 Microservices
+│   │
+│   └── .NET 6
+│       └── 40 Microservices
+│
+├── Payment Services
+│   └── 10 Microservices
+│
+├── Supporting Applications
+│   ├── JSReport
+│   ├── n8n
+│   └── Docusaurus
+│
+└── Authentication
+    └── FusionAuth
+│
+├── CI/CD & GitOps
+│   ├── GitHub Actions
+│   └── Argo CD
+│
+├── Container Registry & Supply Chain
+│   ├── Amazon ECR
+│   ├── ECR Image Scanning
+│   ├── SBOM
+│   └── Kyverno
+│
+├── Security & Secrets
+│   ├── AWS Secrets Manager
+│   ├── AWS KMS
+│   ├── GuardDuty
+│   ├── Inspector
+│   ├── Security Hub
+│   ├── AWS Config
+│   ├── IAM Access Analyzer
+│   ├── Kyverno
+│   ├── Falco
+│   └── Network Policies
+│
+├── Storage
+│   ├── Amazon EBS
+│   ├── Amazon EFS
+│   └── Amazon S3
+│
+├── Databases & Cache
+│   ├── Amazon RDS PostgreSQL
+│   ├── RDS Proxy
+│   ├── Amazon ElastiCache Redis
+│   └── MongoDB Atlas
+│
+├── Messaging & Streaming
+│   ├── Amazon MSK
+│   ├── Amazon MQ
+│   └── Amazon SNS
+│
+├── Monitoring & Observability
+│   ├── Prometheus
+│   ├── Prometheus Operator
+│   ├── Node Exporter
+│   ├── Kube State Metrics
+│   ├── Grafana
+│   ├── Alertmanager
+│   ├── Loki
+│   ├── Grafana Alloy
+│   ├── OpenTelemetry
+│   ├── Grafana Tempo
+│   ├── Jaeger
+│   ├── Grafana Beyla
+│   ├── Kiali
+│   ├── CloudWatch
+│   └── CloudTrail
+│
+├── Backup & Disaster Recovery
+│   ├── AWS Backup
+│   ├── Cross-Region Backup
+│   ├── Cross-Account Backup
+│   ├── Backup Vault Lock
+│   ├── Backup Policies
+│   └── Restore Testing
+│
+└── Infrastructure as Code
+    └── Terraform
